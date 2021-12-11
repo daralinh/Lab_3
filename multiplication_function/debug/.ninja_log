@@ -1,0 +1,11 @@
+# ninja log v5
+2	123	6609442551111637	multiplylib/CMakeFiles/multiplylib_lib.dir/multiply.cpp.obj	2d6ec0b7eff42ce1
+6577	6635	6609436932917726	lib/libgtest_maind.a	950ca0512b39a072
+123	220	6609442552114357	multiplylib/libmultiplylib_lib.a	2e75f677b0f3f5e6
+3	864	6609446095209234	multiplylib_tests/CMakeFiles/multiplylib_tests_run.dir/multiply_test.cpp.obj	618e26b473cc9264
+16	1128	6609436877874754	multiplylib_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	13bff40243326d53
+14	5234	6609436918803195	multiplylib_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	422bff3463c03990
+5235	6577	6609436932379003	lib/libgtestd.a	36c98acc8e2d813a
+864	3178	6609446118338720	multiplylib_tests/multiplylib_tests_run.exe	405ef4754c9a51e9
+3	926	6609548120239550	multiplylib_tests/CMakeFiles/multiplylib_tests_run.dir/multiply_test.cpp.obj	618e26b473cc9264
+926	3211	6609548143062835	multiplylib_tests/multiplylib_tests_run.exe	405ef4754c9a51e9

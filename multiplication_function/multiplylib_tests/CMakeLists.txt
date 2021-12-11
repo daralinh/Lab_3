@@ -1,0 +1,7 @@
+project(multiplylib_tests)
+add_subdirectory(lib)
+
+add_executable(multiplylib_tests_run multiply_test.cpp)
+
+target_link_libraries(multiplylib_tests_run multiplylib_lib)
+target_link_libraries(multiplylib_tests_run gtest gtest_main)

@@ -1,0 +1,272 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "multiplylib",
+					"jsonFile" : "directory-multiplylib-Release-9761989bdba3ff8d0408.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "multiplylib",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "multiplylib_tests",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-multiplylib_tests-Release-d6c6c5885baef332a42e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "multiplylib_tests",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "multiplylib_tests/lib",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-multiplylib_tests.lib-Release-e80a12fe9ff1f2a28ef8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "multiplylib_tests/lib"
+				},
+				{
+					"build" : "multiplylib_tests/lib/googlemock",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-multiplylib_tests.lib.googlemock-Release-75b8c8984998b77f0003.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "multiplylib_tests/lib/googlemock",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "multiplylib_tests/lib/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-multiplylib_tests.lib.googletest-Release-dc19dc2ea92be9e60275.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "multiplylib_tests/lib/googletest",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "multiplication_function",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "multiplylib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "multiplylib_tests",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 2
+				},
+				{
+					"childIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gmock",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gtest",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock::@965671b928f6d81799dc",
+					"jsonFile" : "target-gmock-Release-52e66de6fecddb4f7a0b.json",
+					"name" : "gmock",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock_main::@965671b928f6d81799dc",
+					"jsonFile" : "target-gmock_main-Release-2fb48c59f7297debe5ab.json",
+					"name" : "gmock_main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest::@c9ad1ab68b05cf7aa86d",
+					"jsonFile" : "target-gtest-Release-16569690e8be562469fe.json",
+					"name" : "gtest",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest_main::@c9ad1ab68b05cf7aa86d",
+					"jsonFile" : "target-gtest_main-Release-a272897009cab9977f40.json",
+					"name" : "gtest_main",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multiplication_function_run::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multiplication_function_run-Release-3b40f5421d613ef78c92.json",
+					"name" : "multiplication_function_run",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "multiplylib_lib::@9042e3eab9b8bf550a83",
+					"jsonFile" : "target-multiplylib_lib-Release-aa8e05d3b8c71bfc0c15.json",
+					"name" : "multiplylib_lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "multiplylib_tests_run::@279e63c3270b43cc7fca",
+					"jsonFile" : "target-multiplylib_tests_run-Release-04607967b9e7c8f441f8.json",
+					"name" : "multiplylib_tests_run",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Hoc tap/Van hoa so/multiplication_function/release",
+		"source" : "D:/Hoc tap/Van hoa so/multiplication_function"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
